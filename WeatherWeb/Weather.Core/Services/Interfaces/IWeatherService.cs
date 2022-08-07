@@ -10,6 +10,7 @@ namespace Weather.Core.Services.Interfaces
 {
     public interface IWeatherService
     {
+        //Get whole table
         IEnumerable<WeatherData> GetAll();
         ServiceResult AddWeather(WeatherData weather);
         IEnumerable<WeatherData> GetForLastTwoHours(int id);

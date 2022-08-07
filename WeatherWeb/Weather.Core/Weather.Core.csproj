@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Weather.DAL\Weather.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Services\Interfaces\ISomething.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>
